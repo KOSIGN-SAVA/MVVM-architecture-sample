@@ -8,20 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		3945382020FD901E002BA6A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945381F20FD901E002BA6A4 /* AppDelegate.swift */; };
-		3945382220FD901E002BA6A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945382120FD901E002BA6A4 /* ViewController.swift */; };
+		3945382220FD901E002BA6A4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945382120FD901E002BA6A4 /* MainViewController.swift */; };
 		3945382520FD901E002BA6A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3945382320FD901E002BA6A4 /* Main.storyboard */; };
 		3945382720FD901F002BA6A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3945382620FD901F002BA6A4 /* Assets.xcassets */; };
 		3945382A20FD901F002BA6A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3945382820FD901F002BA6A4 /* LaunchScreen.storyboard */; };
+		3945384120FD9153002BA6A4 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945384020FD9153002BA6A4 /* DataAccess.swift */; };
+		3945384320FD916D002BA6A4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945384220FD916D002BA6A4 /* API.swift */; };
+		3945384520FD9199002BA6A4 /* ExtUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945384420FD9199002BA6A4 /* ExtUIViewController.swift */; };
+		3945384D20FD931A002BA6A4 /* MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3945384920FD931A002BA6A4 /* MJPopupViewController.m */; };
+		3945384E20FD931A002BA6A4 /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3945384A20FD931A002BA6A4 /* UIViewController+MJPopupViewController.m */; };
+		3945384F20FD931A002BA6A4 /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3945384B20FD931A002BA6A4 /* MJPopupBackgroundView.m */; };
+		3945385120FD934E002BA6A4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945385020FD934E002BA6A4 /* UserModel.swift */; };
+		3945385320FD93C5002BA6A4 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945385220FD93C5002BA6A4 /* UserViewModel.swift */; };
+		3945385520FD95C2002BA6A4 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945385420FD95C2002BA6A4 /* UserTableViewCell.swift */; };
+		3945385720FD9870002BA6A4 /* UserJsonList.json in Resources */ = {isa = PBXBuildFile; fileRef = 3945385620FD9870002BA6A4 /* UserJsonList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3945381C20FD901E002BA6A4 /* MVVM architecture sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM architecture sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3945381F20FD901E002BA6A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3945382120FD901E002BA6A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3945382120FD901E002BA6A4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3945382420FD901E002BA6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3945382620FD901F002BA6A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3945382920FD901F002BA6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3945382B20FD901F002BA6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3945384020FD9153002BA6A4 /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		3945384220FD916D002BA6A4 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		3945384420FD9199002BA6A4 /* ExtUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIViewController.swift; sourceTree = "<group>"; };
+		3945384720FD931A002BA6A4 /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		3945384820FD931A002BA6A4 /* MJPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPopupBackgroundView.h; sourceTree = "<group>"; };
+		3945384920FD931A002BA6A4 /* MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPopupViewController.m; sourceTree = "<group>"; };
+		3945384A20FD931A002BA6A4 /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
+		3945384B20FD931A002BA6A4 /* MJPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPopupBackgroundView.m; sourceTree = "<group>"; };
+		3945384C20FD931A002BA6A4 /* MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPopupViewController.h; sourceTree = "<group>"; };
+		3945385020FD934E002BA6A4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3945385220FD93C5002BA6A4 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		3945385420FD95C2002BA6A4 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		3945385620FD9870002BA6A4 /* UserJsonList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserJsonList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +77,115 @@
 		3945381E20FD901E002BA6A4 /* MVVM architecture sample */ = {
 			isa = PBXGroup;
 			children = (
-				3945381F20FD901E002BA6A4 /* AppDelegate.swift */,
-				3945382120FD901E002BA6A4 /* ViewController.swift */,
+				3945383B20FD90F9002BA6A4 /* Helper */,
+				3945383A20FD90ED002BA6A4 /* ViewModels */,
+				3945383920FD90E4002BA6A4 /* Models */,
+				3945383820FD90BC002BA6A4 /* SupportingFiles */,
+				3945383120FD903C002BA6A4 /* Views */,
+			);
+			path = "MVVM architecture sample";
+			sourceTree = "<group>";
+		};
+		3945383120FD903C002BA6A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3945383220FD904F002BA6A4 /* main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3945383220FD904F002BA6A4 /* main */ = {
+			isa = PBXGroup;
+			children = (
 				3945382320FD901E002BA6A4 /* Main.storyboard */,
+				3945385420FD95C2002BA6A4 /* UserTableViewCell.swift */,
+				3945382120FD901E002BA6A4 /* MainViewController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		3945383820FD90BC002BA6A4 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3945381F20FD901E002BA6A4 /* AppDelegate.swift */,
 				3945382620FD901F002BA6A4 /* Assets.xcassets */,
 				3945382820FD901F002BA6A4 /* LaunchScreen.storyboard */,
 				3945382B20FD901F002BA6A4 /* Info.plist */,
 			);
-			path = "MVVM architecture sample";
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3945383920FD90E4002BA6A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3945385020FD934E002BA6A4 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3945383A20FD90ED002BA6A4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3945385220FD93C5002BA6A4 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3945383B20FD90F9002BA6A4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3945383F20FD9134002BA6A4 /* connection */,
+				3945383E20FD912F002BA6A4 /* constant */,
+				3945383D20FD911F002BA6A4 /* extensions */,
+				3945383C20FD910E002BA6A4 /* libs */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3945383C20FD910E002BA6A4 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				3945384620FD931A002BA6A4 /* MJPop */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		3945383D20FD911F002BA6A4 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3945384420FD9199002BA6A4 /* ExtUIViewController.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		3945383E20FD912F002BA6A4 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				3945384220FD916D002BA6A4 /* API.swift */,
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+		3945383F20FD9134002BA6A4 /* connection */ = {
+			isa = PBXGroup;
+			children = (
+				3945384020FD9153002BA6A4 /* DataAccess.swift */,
+				3945385620FD9870002BA6A4 /* UserJsonList.json */,
+			);
+			path = connection;
+			sourceTree = "<group>";
+		};
+		3945384620FD931A002BA6A4 /* MJPop */ = {
+			isa = PBXGroup;
+			children = (
+				3945384720FD931A002BA6A4 /* UIViewController+MJPopupViewController.h */,
+				3945384820FD931A002BA6A4 /* MJPopupBackgroundView.h */,
+				3945384920FD931A002BA6A4 /* MJPopupViewController.m */,
+				3945384A20FD931A002BA6A4 /* UIViewController+MJPopupViewController.m */,
+				3945384B20FD931A002BA6A4 /* MJPopupBackgroundView.m */,
+				3945384C20FD931A002BA6A4 /* MJPopupViewController.h */,
+			);
+			path = MJPop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3945385720FD9870002BA6A4 /* UserJsonList.json in Resources */,
 				3945382A20FD901F002BA6A4 /* LaunchScreen.storyboard in Resources */,
 				3945382720FD901F002BA6A4 /* Assets.xcassets in Resources */,
 				3945382520FD901E002BA6A4 /* Main.storyboard in Resources */,
@@ -135,8 +260,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3945382220FD901E002BA6A4 /* ViewController.swift in Sources */,
+				3945385320FD93C5002BA6A4 /* UserViewModel.swift in Sources */,
+				3945382220FD901E002BA6A4 /* MainViewController.swift in Sources */,
+				3945384520FD9199002BA6A4 /* ExtUIViewController.swift in Sources */,
+				3945385520FD95C2002BA6A4 /* UserTableViewCell.swift in Sources */,
+				3945384D20FD931A002BA6A4 /* MJPopupViewController.m in Sources */,
 				3945382020FD901E002BA6A4 /* AppDelegate.swift in Sources */,
+				3945384F20FD931A002BA6A4 /* MJPopupBackgroundView.m in Sources */,
+				3945384E20FD931A002BA6A4 /* UIViewController+MJPopupViewController.m in Sources */,
+				3945384120FD9153002BA6A4 /* DataAccess.swift in Sources */,
+				3945385120FD934E002BA6A4 /* UserModel.swift in Sources */,
+				3945384320FD916D002BA6A4 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62EMNW6G6D;
-				INFOPLIST_FILE = "MVVM architecture sample/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MVVM architecture sample/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +434,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62EMNW6G6D;
-				INFOPLIST_FILE = "MVVM architecture sample/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MVVM architecture sample/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
